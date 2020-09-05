@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.pending {
+    font-family: sans-serif, serif;
+    margin-top: 50px;
+    text-align: center;
+    color: crimson;
+    font-size: 20px;
+}
+
+.app {
+    width: 90%;
+    margin: 20px auto;
+}
+
+.title {
+    margin-bottom: 10px;
+    font-family: sans-serif, serif;
+    text-align: center;
+    color: palevioletred;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+
+.my_scrollable {
+    height: 480px;
+    overflow-y: scroll;
+    border: 5px solid dimgray;
+    border-radius: 5px;
+}
+
+.cat-array {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cat {
+    background: lightpink;
+    width: 200px; 
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 5px 8px #d1d1d1;
+    transition: all .8s ease-in-out;
+}
+
+.cat:hover {
+    cursor: pointer;
+    transform: scale(1.08);
+}
+
+.cat-profile {
+    text-align: center;
+    font-family: sans-serif, serif;
+}
+
+.searchBar {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.searchBar input {
+    padding: 10px;
+    border: 1px solid palevioletred;
+    font-family: sans-serif, serif;
+    font-size: 18px;
+}

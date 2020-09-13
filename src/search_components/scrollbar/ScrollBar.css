@@ -1,0 +1,13 @@
+.userlist {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 480px;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+}
+
+.no_matches {
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

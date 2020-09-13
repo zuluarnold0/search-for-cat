@@ -1,0 +1,83 @@
+.card {
+    display: grid;
+    grid-template-columns: 240px;
+    grid-template-rows:  200px 120px 60px;
+    grid-template-areas: "image" "text" "stats";
+
+    font-family: roboto;
+    border-radius: 18px;
+    background: #fff;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    text-align: center;
+    margin: 20px;
+
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.card-image img {
+    width: 240px;
+    height:  210px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.card-text {
+    grid-area: text;
+    margin: 25px;
+}
+
+.card-text .date {
+    color: red;
+    font-size: 13px;
+}
+
+.card-text p {
+    color: gray;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.card-text h2 {
+    font-size: 28px;
+}
+
+.card-stats {
+    grid-area: stats;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: #ccc;
+}
+
+.card-stats .stat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    color: #fff;
+}
+
+.card-stats .type {
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.card-stats .value {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.card-stats .border {
+    border-left: 1px solid rgba(60, 61, 65, 0.7);
+    border-right: 1px solid rgba(60, 61, 65, 0.7);
+}
+
+.card:hover {
+    transform: scale(1.09);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}

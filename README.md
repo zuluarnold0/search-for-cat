@@ -1,8 +1,6 @@
-# my cat friends #
+# Search app #
 
 _it is made in JavaScript, Reactjs and Redux_
-
--Profiles are fetched from an API
 
 -All states are handled by redux
 

@@ -1,4 +1,4 @@
-# Search app #
+# Search-app #
 
 _it is made in JavaScript, Reactjs and Redux_
 
